@@ -1,0 +1,62 @@
+body,html{
+    font-family: "poppins",sans-serif;
+    overflow-x: hidden;
+}
+#about-me-photo{
+    height: auto;
+    object-fit: contain;
+    border-radius: 50%;
+}
+#about-me-info{
+    margin-top: 50px;
+}
+#small-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "poppins",sans-serif;
+    font-size: 0.8rem;
+}
+.role{
+    font-weight: 700;
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+#tel{
+    margin-top: 20px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.skill-img{
+    height: 200px;
+    object-fit: cover;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.btn-hover-bounce:hover {
+  animation: bounce 0.4s ease-in-out;
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+
+}
+@media screen and (min-width:992px){
+
+}
