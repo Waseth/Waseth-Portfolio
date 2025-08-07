@@ -59,9 +59,11 @@ body,html{
     transform: translateY(-6px);
   }
 }
-
 .btn-hover-bounce:hover {
   animation: bounce 0.4s ease-in-out;
+}
+.card:hover{
+    animation: bounce 0.4s ease-in-out;
 }
 
 @media screen and (min-width:768px) and (max-width:991.98px){
