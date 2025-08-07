@@ -9,8 +9,10 @@ This is a static portfolio website I’m building from scratch using **HTML**, *
 ###  What I Worked On:
 - “About Me” section layout and content
 - Skills section with cards and icons
+- Projects section
 
 ###  What I Learned:
 - How to use **AOS (Animate On Scroll)** to animate elements for a more dynamic experience
 - How to properly fit an image inside a card without distortion
 - How to apply a **hover bounce effect** on buttons using CSS transitions
+- How to make an entire card clickable and link it to a specific page

@@ -40,6 +40,16 @@ body,html{
     height: 200px;
     object-fit: cover;
 }
+.project-links{
+    text-decoration: none;
+}
+#a-one-image{
+    border: solid 1px rgb(199, 199, 199);
+}
+#project-paragraph{
+    margin: 0 40px;
+    margin-bottom: 40px;
+}
 
 @keyframes bounce {
   0%, 100% {
@@ -55,8 +65,14 @@ body,html{
 }
 
 @media screen and (min-width:768px) and (max-width:991.98px){
-
+    #project-paragraph{
+        margin: 0 100px;
+        margin-bottom: 40px;
+    }
 }
 @media screen and (min-width:992px){
-
+    #project-paragraph{
+        margin: 0 180px;
+        margin-bottom: 40px;
+    }
 }

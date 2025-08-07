@@ -56,11 +56,11 @@
     </div>
 
 
-    <h2 class="role">My Skills</h2>
+    <h2 class="role" data-aos="fade-up">My Skills</h2>
     <div class="container" id="skills">
         <div class="row g-4">
-
-            <div class="card col-md-6" id="card-1" data-aos="fade-right" data-aos-duration="1000">
+            <a href="https://www.w3schools.com/html/" target="_blank" class="col-md-6 project-links">
+            <div class="card" id="card-1" data-aos="fade-right" data-aos-duration="1000">
                 <div class="h-100 p-3 text-center">
                     <img src="html.jpg" alt="HTML card image" class="card-img-top skill-img">
                     <h5 class="role">HTML5</h5>
@@ -69,8 +69,10 @@
                     </p>
                 </div>
             </div>
+            </a>
 
-            <div class="card col-md-6" id="card-2" data-aos="fade-left" data-aos-duration="1000">
+            <a href="https://www.w3schools.com/css/" target="_blank" class="col-md-6 project-links">
+            <div class="card" id="card-2" data-aos="fade-left" data-aos-duration="1000">
                 <div class="h-100 p-3 text-center">
                     <img src="css.jpg" alt="CSS card image" class="card-img-top skill-img">
                     <h5 class="role">CSS3</h5>
@@ -78,8 +80,10 @@
                         crafting responsive layouts that look great on all screen sizes and devices.</p>
                 </div>
             </div>
+            </a>
 
-            <div class="card col-md-6" id="card-3" data-aos="fade-right" data-aos-duration="1000">
+            <a href="https://getbootstrap.com/" target="_blank" class="col-md-6 project-links">
+            <div class="card" id="card-3" data-aos="fade-right" data-aos-duration="1000">
                 <div class="h-100 p-3 text-center">
                     <img src="premium_photo-1661963874418-df1110ee39c1.jpg" alt="Bootstrap card image"
                         class="card-img-top skill-img">
@@ -89,19 +93,51 @@
                     </p>
                 </div>
             </div>
+            </a>
 
-            <div class="card col-md-6" id="card-4" data-aos="fade-left" data-aos-duration="1000">
+            <a href="https://github.com/" target="_blank" class="project-links col-md-6">
+            <div class="card" id="card-4" data-aos="fade-left" data-aos-duration="1000">
                 <div class="h-100 p-3 text-center">
                     <img src="github.jpg" alt="github card image" class="card-img-top skill-img">
                     <h5 class="role">Git & GitHub</h5>
                     <p class="bio">I use Git to track changes and manage my code. GitHub helps me store, share, and
-                        showcase my projects while collaborating with others when needed.</p>
+                        showcase my projects while collaborating with other software developers when needed.</p>
                 </div>
             </div>
+            </a>
 
         </div>
     </div>
-    <div id="projects">Projects</div>
+    <hr class="hr">
+
+    <h2 class="role" data-aos="fade-up">Projects</h2>
+    <p class="bio" id="project-paragraph">These projects represent key milestones in my development as a frontend developer. With each build, I’ve gained more confidence and practical understanding of web design, responsiveness, and user-focused layouts.</p>
+
+    <div id="projects" class="container">
+        <div class="row g-4">
+            <a href="https://a-one-one.vercel.app/" target="_blank" class="project-links col-md-6" data-aos="zoom-in">
+                <div class="card">
+                    <div class="h-100 p-3 text-center">
+                        <img src="a-1.webp" alt="A-one image" class="card-img-top skill-img" id="a-one-image">
+                        <h5 class="role">A-one</h5>
+                        <p class="bio">A-ONE is a car wash website I built as part of my journey to strengthen my HTML
+                            and CSS skills.The main focus was on web responsiveness</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://r-and-a-bootstrap-version.vercel.app/" target="_blank" class="project-links col-md-6" data-aos="zoom-in">
+                <div class="card">
+                    <div class="h-100 p-3 text-center">
+                        <img src="download.jpg" alt="R&A image" class="card-img-top skill-img">
+                        <h5 class="role">R&A Legacies</h5>
+                        <p class="bio">R&A Legacies is a simple job application website I built to practice how to make layouts work seamlessly across different devices</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
     <div id="contact-form">Contact form</div>
     <div id="footer">Footer</div>
 
