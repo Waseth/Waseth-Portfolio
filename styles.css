@@ -1,6 +1,7 @@
 body,html{
     font-family: "poppins",sans-serif;
     overflow-x: hidden;
+    background-color: #FFF8F0 !important;
 }
 #about-me-photo{
     height: auto;
@@ -50,6 +51,13 @@ body,html{
     margin: 0 40px;
     margin-bottom: 40px;
 }
+#contact-form{
+    margin-top: 20px;
+}
+#submit-button{
+    max-width: 200px;
+    width: 100%;
+}
 
 @keyframes bounce {
   0%, 100% {
@@ -66,15 +74,45 @@ body,html{
     animation: bounce 0.4s ease-in-out;
 }
 
+.glowing-icon {
+  display: inline-block;
+  margin: 10px;
+  color: #00eeff;
+  border: 2px solid #00eeff;
+  border-radius: 30%;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 5px #00eeff, 0 0 10px #00eeff;
+  transition: all 0.3s ease;
+}
+
+.glowing-icon:hover {
+  background: #00eeff;
+  color: #6c757d;
+;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
+}
+
+
 @media screen and (min-width:768px) and (max-width:991.98px){
     #project-paragraph{
         margin: 0 100px;
         margin-bottom: 40px;
     }
+    #submit-button{
+        max-width: 300px;
+        width: 100%;
+}
 }
 @media screen and (min-width:992px){
     #project-paragraph{
         margin: 0 180px;
         margin-bottom: 40px;
     }
+    #submit-button{
+        max-width: 400px;
+        width: 100%;
+}
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +47,7 @@
 
                 <div id="button" class="mb-3">
                     <a class="btn btn-secondary btn-hover-bounce" href="#contact-form" role="button">Contact Me</a>
-                    <a class="btn btn-secondary btn-hover-bounce" href="#projects" role="button">My Projects</a>
+                    <a class="btn btn-secondary btn-hover-bounce" href="#projects" role="button">My Work</a>
                 </div>
             </div>
         </div>
@@ -60,50 +61,51 @@
     <div class="container" id="skills">
         <div class="row g-4">
             <a href="https://www.w3schools.com/html/" target="_blank" class="col-md-6 project-links">
-            <div class="card" id="card-1" data-aos="fade-right" data-aos-duration="1000">
-                <div class="h-100 p-3 text-center">
-                    <img src="html.jpg" alt="HTML card image" class="card-img-top skill-img">
-                    <h5 class="role">HTML5</h5>
-                    <p class="bio">I use semantic HTML to create clear, structured web pages. It helps me build
-                        accessible content that's easy to read, maintain, and extend as my projects grow.
-                    </p>
+                <div class="card" id="card-1" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="h-100 p-3 text-center">
+                        <img src="html.jpg" alt="HTML card image" class="card-img-top skill-img">
+                        <h5 class="role">HTML5</h5>
+                        <p class="bio">I use semantic HTML to create clear, structured web pages. It helps me build
+                            accessible content that's easy to read, maintain, and extend as my projects grow.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </a>
 
             <a href="https://www.w3schools.com/css/" target="_blank" class="col-md-6 project-links">
-            <div class="card" id="card-2" data-aos="fade-left" data-aos-duration="1000">
-                <div class="h-100 p-3 text-center">
-                    <img src="css.jpg" alt="CSS card image" class="card-img-top skill-img">
-                    <h5 class="role">CSS3</h5>
-                    <p class="bio">I style websites using CSS features like Flexbox, Grid, and transitions. I enjoy
-                        crafting responsive layouts that look great on all screen sizes and devices.</p>
+                <div class="card" id="card-2" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="h-100 p-3 text-center">
+                        <img src="css.jpg" alt="CSS card image" class="card-img-top skill-img">
+                        <h5 class="role">CSS3</h5>
+                        <p class="bio">I style websites using CSS features like Flexbox, Grid, and transitions. I enjoy
+                            crafting responsive layouts that look great on all screen sizes and devices.</p>
+                    </div>
                 </div>
-            </div>
             </a>
 
             <a href="https://getbootstrap.com/" target="_blank" class="col-md-6 project-links">
-            <div class="card" id="card-3" data-aos="fade-right" data-aos-duration="1000">
-                <div class="h-100 p-3 text-center">
-                    <img src="premium_photo-1661963874418-df1110ee39c1.jpg" alt="Bootstrap card image"
-                        class="card-img-top skill-img">
-                    <h5 class="role">Bootstrap</h5>
-                    <p class="bio">Bootstrap helps me build responsive, mobile-friendly websites fast. I use its grid
-                        system and components to create consistent designs with minimal custom CSS.
-                    </p>
+                <div class="card" id="card-3" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="h-100 p-3 text-center">
+                        <img src="premium_photo-1661963874418-df1110ee39c1.jpg" alt="Bootstrap card image"
+                            class="card-img-top skill-img">
+                        <h5 class="role">Bootstrap</h5>
+                        <p class="bio">Bootstrap helps me build responsive, mobile-friendly websites fast. I use its
+                            grid
+                            system and components to create consistent designs with minimal custom CSS.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </a>
 
             <a href="https://github.com/" target="_blank" class="project-links col-md-6">
-            <div class="card" id="card-4" data-aos="fade-left" data-aos-duration="1000">
-                <div class="h-100 p-3 text-center">
-                    <img src="github.jpg" alt="github card image" class="card-img-top skill-img">
-                    <h5 class="role">Git & GitHub</h5>
-                    <p class="bio">I use Git to track changes and manage my code. GitHub helps me store, share, and
-                        showcase my projects while collaborating with other software developers when needed.</p>
+                <div class="card" id="card-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="h-100 p-3 text-center">
+                        <img src="github.jpg" alt="github card image" class="card-img-top skill-img">
+                        <h5 class="role">Git & GitHub</h5>
+                        <p class="bio">I use Git to track changes and manage my code. GitHub helps me store, share, and
+                            showcase my projects while collaborating with other software developers when needed.</p>
+                    </div>
                 </div>
-            </div>
             </a>
 
         </div>
@@ -111,7 +113,9 @@
     <hr class="hr">
 
     <h2 class="role" data-aos="fade-up">Projects</h2>
-    <p class="bio" id="project-paragraph">These projects represent key milestones in my development as a frontend developer. With each build, I’ve gained more confidence and practical understanding of web design, responsiveness, and user-focused layouts.</p>
+    <p class="bio" id="project-paragraph">These projects represent key milestones in my development as a frontend
+        developer. With each build, I’ve gained more confidence and practical understanding of web design,
+        responsiveness, and user-focused layouts.</p>
 
     <div id="projects" class="container">
         <div class="row g-4">
@@ -126,20 +130,85 @@
                 </div>
             </a>
 
-            <a href="https://r-and-a-bootstrap-version.vercel.app/" target="_blank" class="project-links col-md-6" data-aos="zoom-in">
+            <a href="https://r-and-a-bootstrap-version.vercel.app/" target="_blank" class="project-links col-md-6"
+                data-aos="zoom-in">
                 <div class="card">
                     <div class="h-100 p-3 text-center">
                         <img src="download.jpg" alt="R&A image" class="card-img-top skill-img">
                         <h5 class="role">R&A Legacies</h5>
-                        <p class="bio">R&A Legacies is a simple job application website I built to practice how to make layouts work seamlessly across different devices</p>
+                        <p class="bio">R&A Legacies is a simple job application website I built to practice how to make
+                            layouts work seamlessly across different devices</p>
                     </div>
                 </div>
             </a>
         </div>
 
     </div>
-    <div id="contact-form">Contact form</div>
-    <div id="footer">Footer</div>
+
+    <div id="contact-form">
+        <div class="container">
+            <h2 class="text-center role" data-aos="fade-up">Contact Me</h2>
+            <form action="https://formspree.io/f/xeozpyzn" method="POST" class="w-75 mx-auto">
+                <div class="mb-3">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="secondname" class="form-label">Second Name</label>
+                    <input type="text" class="form-control" id="secondname" name="secondname" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="_replyto" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-secondary btn-hover-bounce" id="submit-button">Submit</button>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5" >
+        <div class="container">
+
+            <div class="mb-3">
+                <a href="https://instagram.com/_sapospov_" target="_blank" class="glowing-icon">
+                    <i class="fab fa-instagram fa"></i>
+                </a>
+                <a href="https://www.tiktok.com/@teeee_bag" target="_blank" class="glowing-icon">
+                    <i class="fab fa-tiktok fa"></i>
+                </a>
+                <a href="https://linkedin.com/in/waseth-emmanuel" target="_blank" class="glowing-icon">
+                    <i class="fab fa-linkedin fa"></i>
+                </a>
+                <a href="tel:+254798863379" class="glowing-icon">
+                    <i class="fas fa-phone fa"></i>
+                </a>
+                <a href="https://wa.me/0798863379" target="_blank" class="glowing-icon">
+                    <i class="fab fa-whatsapp fa"></i>
+                </a>
+                <a href="https://github.com/Waseth" target="_blank" class="glowing-icon">
+                    <i class="fab fa-github fa"></i>
+                </a>
+            </div>
+
+
+            <p class="mb-0">&copy; 2025 Emmanuel Waseth. All Rights Reserved.</p>
+        </div>
+    </footer>
+
 
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
