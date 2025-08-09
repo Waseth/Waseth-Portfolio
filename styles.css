@@ -2,6 +2,8 @@ body,html{
     font-family: "poppins",sans-serif;
     overflow-x: hidden;
     font-size: 0.8rem;
+    padding-top: 70px;
+
 }
 
 #about-me-photo{
@@ -101,8 +103,6 @@ body,html{
 ;
   box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
 }
-
-
 @media screen and (min-width:768px) and (max-width:991.98px){
     #project-paragraph{
         margin: 0 100px;
