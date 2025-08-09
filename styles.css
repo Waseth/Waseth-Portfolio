@@ -2,6 +2,7 @@ body,html{
     font-family: "poppins",sans-serif;
     overflow-x: hidden;
 }
+
 #about-me-photo{
     height: auto;
     object-fit: contain;
