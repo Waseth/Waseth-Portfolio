@@ -71,7 +71,12 @@ body,html{
   animation: bounce 0.4s ease-in-out;
 }
 .card:hover{
-    animation: bounce 0.4s ease-in-out;
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+#my-skills-card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 
 .glowing-icon {
