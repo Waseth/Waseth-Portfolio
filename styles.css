@@ -1,6 +1,7 @@
 body,html{
     font-family: "poppins",sans-serif;
     overflow-x: hidden;
+    font-size: 0.8rem;
 }
 
 #about-me-photo{
