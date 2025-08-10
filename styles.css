@@ -3,9 +3,25 @@ body,html{
     overflow-x: hidden;
     font-size: 0.8rem;
     padding-top: 70px;
+    margin: 0;
+    padding: 0;
+}
+svg {
+  display: block;
+  margin-top: -1px;
+  margin-bottom: -5px;
+}
+#linkedin-git{
+    flex-direction: row;
+    justify-content: center;
+}
+.about-me-socials{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
 
 }
-
 #about-me-photo{
     height: auto;
     object-fit: contain;
@@ -25,6 +41,7 @@ body,html{
     font-weight: 700;
     text-align: center;
     margin-top: 15px;
+    color: black;
 }
 .bio{
     text-align: center;
@@ -39,7 +56,7 @@ body,html{
 }
 .hr{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
 .skill-img{
     height: 200px;
@@ -62,7 +79,6 @@ body,html{
     max-width: 200px;
     width: 100%;
 }
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -103,6 +119,10 @@ body,html{
 ;
   box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
 }
+footer{
+    background-color: #273036;
+
+}
 @media screen and (min-width:768px) and (max-width:991.98px){
     #project-paragraph{
         margin: 0 100px;
@@ -111,15 +131,23 @@ body,html{
     #submit-button{
         max-width: 300px;
         width: 100%;
-}
+    }
 }
 @media screen and (min-width:992px){
     #project-paragraph{
-        margin: 0 180px;
+        margin: 0 350px;
         margin-bottom: 40px;
     }
     #submit-button{
         max-width: 400px;
         width: 100%;
-}
+    }
+    #card{
+        min-height:400px;
+    }
+    #project-cards{
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
