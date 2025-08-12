@@ -6,10 +6,24 @@ body,html{
     margin: 0;
     padding: 0;
 }
+.navbar{
+    background-color:#273036 ;
+}
+.nav-link{
+    font-size: 1rem !important;
+}
+.nav-link:hover{
+    color: rgb(134, 154, 121) !important;
+    transition: .5s ;
+}
+
 svg {
   display: block;
   margin-top: -1px;
   margin-bottom: -5px;
+}
+#upper-svg{
+    margin-top: 30px;
 }
 #linkedin-git{
     flex-direction: row;
@@ -122,6 +136,11 @@ svg {
 footer{
     background-color: #273036;
 
+}
+@media screen and (max-width:767.98px){
+    #navbar-button{
+        max-width: 50px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:991.98px){
     #project-paragraph{
