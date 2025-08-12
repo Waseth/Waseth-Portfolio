@@ -11,10 +11,15 @@ body,html{
 }
 .nav-link{
     font-size: 1rem !important;
+    line-height: 1.2;
+    padding-bottom: 5px;
 }
 .nav-link:hover{
     color: rgb(134, 154, 121) !important;
     transition: .5s ;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
 }
 
 svg {
@@ -104,10 +109,7 @@ svg {
 .btn-hover-bounce:hover {
   animation: bounce 0.4s ease-in-out;
 }
-.card:hover{
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-}
+
 #my-skills-card:hover{
     transform: scale(1.02);
     transition: transform 0.3s ease;
