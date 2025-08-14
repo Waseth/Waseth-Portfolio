@@ -9,37 +9,39 @@ body,html{
 .navbar{
     background-color:#273036 ;
 }
-.nav-link{
-    font-size: 1rem !important;
-    line-height: 1.2;
-    padding-bottom: 5px;
-}
-.nav-link:hover{
-    color: rgb(134, 154, 121) !important;
-    transition: .5s ;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
-}
 
+#my-skills-card{
+    min-height: 10px;
+}
+.card-img-top{
+    min-height: 40px;
+    height: 100%;
+}
+#my-name{
+    font-size: 1.5rem;
+}
 svg {
   display: block;
   margin-top: -1px;
   margin-bottom: -5px;
 }
 #upper-svg{
-    margin-top: 30px;
+    margin-bottom: 50px;
 }
-#linkedin-git{
-    flex-direction: row;
-    justify-content: center;
+.small-icons{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.large-icons{
+    margin-right: 40px;
+    margin-top: 6px;
 }
 .about-me-socials{
-    background-color: black;
-    color: white;
-    padding: 4px;
-    border-radius: 6px;
-
+    background-color: white;
+    color: #273036;
+    padding: 3px;
+    border-radius: 4px;
+    margin-left: 10px;
 }
 #about-me-photo{
     height: auto;
@@ -61,9 +63,13 @@ svg {
     text-align: center;
     margin-top: 15px;
     color: black;
+    margin-bottom: 20px;
 }
 .bio{
     text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 #tel{
     margin-top: 20px;
@@ -74,10 +80,10 @@ svg {
     gap: 20px;
 }
 .hr{
-    margin-top: 40px;
-    margin-bottom: 150px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
-.skill-img{
+.project-img{
     height: 200px;
     object-fit: cover;
 }
@@ -87,7 +93,7 @@ svg {
 #a-one-image{
     border: solid 1px rgb(199, 199, 199);
 }
-#project-paragraph{
+.project-paragraph{
     margin: 0 40px;
     margin-bottom: 40px;
 }
@@ -145,7 +151,7 @@ footer{
     }
 }
 @media screen and (min-width:768px) and (max-width:991.98px){
-    #project-paragraph{
+    .project-paragraph{
         margin: 0 100px;
         margin-bottom: 40px;
     }
@@ -153,10 +159,13 @@ footer{
         max-width: 300px;
         width: 100%;
     }
+    #my-name{
+        font-size: 2rem;
+    }
 }
 @media screen and (min-width:992px){
-    #project-paragraph{
-        margin: 0 350px;
+    .project-paragraph{
+        margin: 0 360px;
         margin-bottom: 40px;
     }
     #submit-button{
@@ -170,5 +179,11 @@ footer{
         max-width: 450px;
         margin-left: auto;
         margin-right: auto;
+    }
+    #linkedin-git{
+        margin-right: 50px;
+    }
+    #my-name{
+        font-size: 2rem;
     }
 }
