@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar py-4">
+    <nav class="navbar py-1">
         <a class="navbar-brand fw-bold text-white mx-4" href="#about-me-photo" id="my-name">
             Waseth Emmanuel
         </a>
@@ -94,8 +94,8 @@
     </div>
 
     <section id="skills" class="skills-section">
-        <h2 class="role">Skills</h2>
-        <div class="card p-4 mx-4">
+        <h2 class="role" data-aos="fade-up" data-aos-duration="1000">Skills</h2>
+        <div class="card p-4" id="skill-paragraph">
             <p class="bio">
                 I’m steadily building a solid foundation in the essentials of modern web development, honing my skills
                 in HTML, CSS, and Bootstrap to craft responsive, user-friendly designs. I’m also learning Git and GitHub
@@ -105,25 +105,45 @@
             </p>
         </div>
 
+        <div class="cells">
+            <div class="cell" data-aos="zoom-in">
+                <img src="html.png" alt="HTML logo" class="skills-image" id="html-logo">
+                <span>HTML</span>
+            </div>
 
+            <div class="cell" data-aos="zoom-in">
+                <img src="css.png" alt="CSS logo" class="skills-image" id="css-logo">
+                <span>CSS</span>
+            </div>
 
+            <div class="cell" data-aos="zoom-in">
+                <img src="bootstrap.png" alt="Bootstrap logo" class="skills-image" id="bootstrap-logo">
+                <span>Bootstrap</span>
+            </div>
+
+            <div class="cell" data-aos="zoom-in">
+                <img src="git.png" alt="Github logo" class="skills-image" id="git-logo">
+                <span>Github</span>
+            </div>
+        </div>
 
     </section>
     <hr class="hr">
 
-    <h2 class="role text-dark" id="projects">My Projects</h2>
-    <div class="card p-4 mx-4">
+    <h2 class="role text-dark" id="projects" data-aos="fade-up" data-aos-duration="1000">My Projects</h2>
+    <div class="card p-4" id="project-paragraph">
         <p class="bio">These projects mark important steps in my growth as a frontend developer,
-        each one teaching me new techniques and problem-solving skills. Through building them, I’ve strengthened my
-        grasp of HTML, CSS, and Bootstrap, while learning to balance creativity with usability. Every completed project
-        adds to my experience, helping me design layouts that are both visually appealing and responsive across
-        different devices.</p>
+            each one teaching me new techniques and problem-solving skills. Through building them, I’ve strengthened my
+            grasp of HTML, CSS, and Bootstrap, while learning to balance creativity with usability. Every completed
+            project
+            adds to my experience, helping me design layouts that are both visually appealing and responsive across
+            different devices.</p>
     </div>
 
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="project-container">
         <div class="row g-4 justify-content-center">
-            <a href="https://a-one-one.vercel.app/" target="_blank" class="project-links col-md-6" data-aos="fade-up">
+            <a href="https://a-one-one.vercel.app/" target="_blank" class="project-links col-md-6" data-aos="zoom-in">
                 <div class="card" id="project-cards">
                     <div class="h-100 p-3 text-center">
                         <img src="a-1.webp" alt="A-one image" class="card-img-top project-img" id="a-one-image">
@@ -135,7 +155,7 @@
             </a>
 
             <a href="https://r-and-a-bootstrap-version.vercel.app/" target="_blank" class="project-links col-md-6"
-                data-aos="fade-up">
+                data-aos="zoom-in">
                 <div class="card" id="project-cards">
                     <div class="h-100 p-3 text-center">
                         <img src="download.jpg" alt="R&A image" class="card-img-top project-img">
@@ -149,6 +169,7 @@
         </div>
 
     </div>
+    <hr class="hr">
 
     <div id="contact-form">
         <div class="container">
@@ -195,7 +216,7 @@
         <div class="container">
 
             <div class="mb-3">
-                <a href="https://instagram.com/_sapospov_" target="_blank" class="glowing-icon"
+                <a href="https://instagram.com/waseth.dev" target="_blank" class="glowing-icon"
                     aria-label="Instagram Profile">
                     <i class="fab fa-instagram fa"></i>
                 </a>

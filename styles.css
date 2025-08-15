@@ -1,5 +1,5 @@
 body,html{
-    font-family: "poppins",sans-serif;
+    font-family: "poppins",sans-serif !important;
     overflow-x: hidden;
     font-size: 0.8rem;
     padding-top: 70px;
@@ -23,7 +23,6 @@ body,html{
 svg {
   display: block;
   margin-top: -1px;
-  margin-bottom: -5px;
 }
 #upper-svg{
     margin-bottom: 50px;
@@ -65,6 +64,47 @@ svg {
     color: black;
     margin-bottom: 20px;
 }
+.skills-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+.skills-section .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.skills-section .cells .cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: 10px 20px;
+    border: solid 1px rgb(231, 230, 230);
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.skills-image{
+    height: 40px;
+    max-height: 100%;
+}
+
+#css-logo{
+    height: 60px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#bootstrap-logo{
+    height: 30px;
+    margin-bottom: 10px;
+}
+#git-logo{
+    height: 30px;
+    margin-bottom: 10px;
+}
 .bio{
     text-align: center;
     margin-bottom: 5px;
@@ -97,12 +137,15 @@ svg {
     margin: 0 40px;
     margin-bottom: 40px;
 }
-#contact-form{
-    margin-top: 20px;
+#project-container{
+    margin-bottom: 160px;
 }
 #submit-button{
     max-width: 200px;
     width: 100%;
+}
+.card{
+    border-radius: 20px !important;
 }
 @keyframes bounce {
   0%, 100% {
@@ -149,6 +192,15 @@ footer{
     #navbar-button{
         max-width: 50px;
     }
+    #skill-paragraph{
+        margin: 0 -20px;
+    }
+    #project-paragraph{
+        margin: 0 25px;
+    }
+    #project-cards{
+        margin: 0 20px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:991.98px){
     .project-paragraph{
@@ -162,12 +214,15 @@ footer{
     #my-name{
         font-size: 2rem;
     }
+    #skill-paragraph{
+        margin: 0 100px;
+    }
+    #project-paragraph{
+        margin: 0 150px;
+    }
 }
 @media screen and (min-width:992px){
-    .project-paragraph{
-        margin: 0 360px;
-        margin-bottom: 40px;
-    }
+
     #submit-button{
         max-width: 400px;
         width: 100%;
@@ -185,5 +240,11 @@ footer{
     }
     #my-name{
         font-size: 2rem;
+    }
+    #skill-paragraph{
+        margin: 0 150px;
+    }
+    #project-paragraph{
+        margin: 0 200px;
     }
 }
