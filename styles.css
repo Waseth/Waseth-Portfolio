@@ -25,9 +25,6 @@ svg {
   display: block;
   margin-top: -1px;
 }
-#upper-svg{
-    margin-bottom: 50px;
-}
 .small-icons{
     margin-right: 20px;
     margin-top: 3px;
@@ -46,7 +43,7 @@ svg {
 #about-me-photo{
     height: auto;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 230px;
 }
 #about-me-info{
     margin-top: 50px;
@@ -140,7 +137,7 @@ svg {
     margin-bottom: 40px;
 }
 #project-container{
-    margin-bottom: 160px;
+    margin-bottom: 60px;
 }
 #submit-button{
     max-width: 200px;
@@ -148,6 +145,17 @@ svg {
 }
 .card{
     border-radius: 20px !important;
+}
+.cert-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#cert{
+    max-width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 @keyframes bounce {
   0%, 100% {
@@ -222,6 +230,12 @@ footer{
     #project-paragraph{
         margin: 0 150px;
     }
+    #about-me-photo{
+        border-radius: 230px;
+    }
+    #cert{
+        max-width: 500px;
+    }
 }
 @media screen and (min-width:992px){
 
@@ -248,5 +262,8 @@ footer{
     }
     #project-paragraph{
         margin: 0 200px;
+    }
+    #cert{
+        max-width: 600px;
     }
 }
