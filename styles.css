@@ -8,7 +8,7 @@ body,html{
 }
 
 .navbar{
-    background-color:#273036 ;
+    background-color:#0a0a0a;
 }
 
 #my-skills-card{
@@ -142,6 +142,8 @@ svg {
 #submit-button{
     max-width: 200px;
     width: 100%;
+    background-color: #0a0a0a;
+    margin-top: 30px;
 }
 .card{
     border-radius: 20px !important;
@@ -156,6 +158,9 @@ svg {
     max-width: 300px;
     margin-top: 30px;
     border-radius: 10px;
+}
+footer{
+    background-color: #0a0a0a !important;
 }
 @keyframes bounce {
   0%, 100% {
