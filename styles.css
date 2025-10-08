@@ -44,6 +44,7 @@ svg {
     height: auto;
     object-fit: contain;
     border-radius: 230px;
+    margin-top: 20px;
 }
 #about-me-info{
     margin-top: 50px;
