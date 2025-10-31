@@ -6,11 +6,59 @@ body,html{
     margin: 0;
     padding: 0;
 }
-
-.navbar{
-    background-color:#0a0a0a;
+body{
+    background-color: var(--primary-color)!important;
 }
-
+:root{
+    --primary-color: #fff;
+    --secondary-color: #212121;
+    --card-border: rgba(0,0,0,0.125);
+    --card-shadow: rgba(0,0,0,0.075);
+}
+.cell{
+    border: 1px solid var(--card-border)!important;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+    --card-border: rgba(255,255,255,0.1);
+    --card-shadow: rgba(255, 255, 255, 0.05);
+}
+nav{
+    background-color: var(--primary-color) !important;
+    border: 1px solid var(--card-border)!important;
+    box-shadow: 0 4px 10px 5px var(--card-shadow)!important;
+}
+.moon{
+    color: var(--secondary-color);
+    font-size: 25px;
+    margin-right: 30px;
+}
+.sun{
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-right: 30px;
+    display: none;
+}
+.sun-see{
+    display: block;
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin-right: 30px;
+}
+.moon-invisible{
+    color: var(--primary-color);
+    font-size: 25px;
+    margin-right: 30px;
+    display: none;
+}
+.card{
+    margin-top: 50px !important;
+    background-color: var(--primary-color) !important;
+    border: 1px solid var(--card-border)!important;
+    box-shadow: 0 4px 10px var(--card-shadow)!important;
+    box-shadow: 0 -4px 10px var(--card-shadow)!important;
+}
 #my-skills-card{
     min-height: 10px;
 }
@@ -20,6 +68,7 @@ body,html{
 }
 #my-name{
     font-size: 1.5rem;
+    color: var(--secondary-color);
 }
 svg {
   display: block;
@@ -43,8 +92,10 @@ svg {
 #about-me-photo{
     height: auto;
     object-fit: contain;
-    border-radius: 230px;
+    border-radius: 50% !important;
     margin-top: 20px;
+    box-shadow: 0 4px 10px 40px var(--card-shadow)!important;
+    box-shadow: 0 -4px 10px 20px var(--card-shadow)!important;
 }
 #about-me-info{
     margin-top: 50px;
@@ -56,16 +107,26 @@ svg {
     font-family: "poppins",sans-serif;
     font-size: 0.8rem;
 }
+#small-text p{
+    color: var(--secondary-color);
+}
+#about-me-description h1{
+    color: var(--secondary-color);
+}
+#about-me-description h4{
+    color: var(--secondary-color);
+}
 .role{
+    color: var(--secondary-color);
     font-weight: 700;
     text-align: center;
     margin-top: 15px;
-    color: black;
     margin-bottom: 20px;
 }
 .skills-section{
     padding: 0 50px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 .skills-section .cells{
     display: flex;
@@ -85,6 +146,9 @@ svg {
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 10px;
+}
+.cell span{
+    color: var(--secondary-color);
 }
 .skills-image{
     height: 40px;
@@ -106,6 +170,7 @@ svg {
     margin-bottom: 10px;
 }
 .bio{
+    color: var(--secondary-color);
     text-align: center;
     margin-bottom: 5px;
     padding-bottom: 10px;
@@ -118,6 +183,10 @@ svg {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+#button a{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .hr{
     margin-top: 20px;
@@ -143,8 +212,12 @@ svg {
 #submit-button{
     max-width: 200px;
     width: 100%;
-    background-color: #0a0a0a;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     margin-top: 30px;
+}
+#education{
+    margin-top: 120px;
 }
 .card{
     border-radius: 20px !important;
@@ -155,6 +228,9 @@ svg {
     align-items: center;
     margin-bottom: 80px;
 }
+.form-label{
+    color: var(--secondary-color);
+}
 #cert{
     max-width: 300px;
     margin-top: 30px;
@@ -162,6 +238,7 @@ svg {
 }
 footer{
     background-color: #0a0a0a !important;
+    box-shadow: 0 -2px 10px 5px var(--card-shadow)!important;
 }
 @keyframes bounce {
   0%, 100% {
@@ -201,13 +278,11 @@ footer{
   box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
 }
 footer{
-    background-color: #273036;
+    background-color:#000106 !important;
 
 }
 @media screen and (max-width:767.98px){
-    #navbar-button{
-        max-width: 50px;
-    }
+
     #skill-paragraph{
         margin: 0 -20px;
     }
@@ -216,6 +291,13 @@ footer{
     }
     #project-cards{
         margin: 0 20px;
+    }
+    #about-me-photo{
+        margin-top: 50px;
+    }
+    #moon{
+        font-size: 20px;
+        margin-right: 10px;
     }
 }
 @media screen and (min-width:768px) and (max-width:991.98px){
@@ -237,7 +319,7 @@ footer{
         margin: 0 150px;
     }
     #about-me-photo{
-        border-radius: 230px;
+        border-radius: 50%;
     }
     #cert{
         max-width: 500px;
