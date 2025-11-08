@@ -33,6 +33,7 @@ nav{
     color: var(--secondary-color);
     font-size: 25px;
     margin-right: 30px;
+    cursor: pointer;
 }
 .sun{
     color: var(--primary-color);
@@ -45,6 +46,7 @@ nav{
     color: var(--secondary-color);
     font-size: 20px;
     margin-right: 30px;
+    cursor: pointer;
 }
 .moon-invisible{
     color: var(--primary-color);
